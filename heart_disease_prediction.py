@@ -1,4 +1,4 @@
-#step 1: Import Libraries
+# Import Libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -10,34 +10,34 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, accuracy_score
 
-#step 1 load the data
+# load the data
 df = pd.read_csv(r"C:\Users\Shivam Kaushik\Desktop\Heart Disease Project\Data\heart.csv")
 
-#step 2: Basic checks
+# Basic checks
 print("Shape:, df.shape")
 print("Columns:", df.columns)
 print(df.head())
 
-#step3: Convert categorical data(if any)
+# Convert categorical data(if any)
 df = pd.get_dummies(df, drop_first=True)
 
-#step 4: split the data
+# split the data
 x = df.drop("HeartDisease", axis=1)
 y = df['HeartDisease']
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
 
-#step 5: Train model
+# Train model
 model = RandomForestClassifier(random_state=42)
 model.fit(x_train, y_train)
 
-#step 6: Predict and evaluate
+# Predict and evaluate
 y_pred = model.predict(x_test)
 
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print("Classification Report:\n", classification_report(y_test, y_pred))
 
 from sklearn.metrics import confusion_matrix
-#step7: Confusion Matrix
+# Confusion Matrix
 cm = confusion_matrix(y_test, y_pred)
 
 #Visualize the Confusion matrix
