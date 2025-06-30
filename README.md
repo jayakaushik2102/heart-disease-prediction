@@ -68,7 +68,7 @@ I enjoy building real-world ML projects to improve my skills and help others lea
 - Passionate about AI, data science & healthcare tech
 - Always learning and sharing projects
 
-Let's connect:
-GitHub: 
-likdien:
+Lets Connect:
+GitHub: (https://github.com/jayakaushik2102)  
+LinkedIn: (https://www.linkedin.com/in/jaya-kaushik-b51978237)
 
