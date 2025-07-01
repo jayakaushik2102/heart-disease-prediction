@@ -11,7 +11,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, accuracy_score
 
 # load the data
-df = pd.read_csv(r"C:\Users\Shivam Kaushik\Desktop\Heart Disease Project\Data\heart.csv")
+df = pd.read_csv(r"C:\Users\Jaya Kaushik\Desktop\Heart Disease Project\Data\heart.csv")
 
 # Basic checks
 print("Shape:, df.shape")
@@ -49,7 +49,7 @@ plt.tight_layout()
 plt.show()
 
 import os
-save_path = r"C:\Users\Shivam Kaushik\Desktop\Heart Disease Project\Outputs"
+save_path = r"C:\Users\Jaya Kaushik\Desktop\Heart Disease Project\Outputs"
 if not os.path.exists(save_path):
     os.makedirs(save_path)
 
@@ -72,7 +72,7 @@ y_pred = model.predict(x_test)
 accuracy = accuracy_score(y_test, y_pred)
 report = classification_report(y_test, y_pred)
 # path to save folder
-save_folder = r"C:\Users\Shivam Kaushik\Desktop\Heart Disease Project\Outputs"
+save_folder = r"C:\Users\Jaya Kaushik\Desktop\Heart Disease Project\Outputs"
 report_file = os.path.join(save_folder, "model_report.txt")
 
 if not os.path.exists(save_folder):
