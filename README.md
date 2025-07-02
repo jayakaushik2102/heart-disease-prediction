@@ -1,4 +1,4 @@
-Heart Disease Prediction using Machine Learning
+9Heart Disease Prediction using Machine Learning
 This project predicts whether a person has heart disease using clinical features like age, cholesterol, resting blood pressure, and chest pain type. 
 I used a Random Forest Classifier to train the model and evaluated it using accuracy, classification report, and confusion matrix.
 
@@ -20,17 +20,7 @@ What I Did
   - Confusion matrix heatmap ('confusion_matrix.png')
 
 Example Output
-Accuracy: 86.89%
-
-Classification Report:
-              precision    recall  f1-score   support
-
-           0       0.88      0.85      0.86        54
-           1       0.86      0.89      0.87        56
-
-    accuracy                           0.87       110
-   macro avg       0.87      0.87      0.87       110
-weighted avg       0.87      0.87      0.87       110
+Accuracy: 75.543478% 
 
 Tools and Libraries Used
 - Python
