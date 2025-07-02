@@ -1,23 +1,22 @@
-9Heart Disease Prediction using Machine Learning
-This project predicts whether a person has heart disease using clinical features like age, cholesterol, resting blood pressure, and chest pain type. 
-I used a Random Forest Classifier to train the model and evaluated it using accuracy, classification report, and confusion matrix.
-
+Heart Disease Prediction using Machine Learning
+This project predicts whether a person has heart disease using clinical features like age, cholesterol, resting blood pressure, and chest pain type.  
+A Random Forest Classifier is used for training, and the model is evaluated using accuracy, classification report, and confusion matrix.
 
 Why This Project Matters
 - Heart disease is one of the leading causes of death worldwide.
 - Early prediction using machine learning can help in timely diagnosis and treatment.
-- This project simulates how real-world healthcare AI systems work by analyzing patient data and predicting disease risk.
+- Simulates how real-world healthcare AI systems analyze patient data and predict disease risk.
 
 What I Did
 - Cleaned and preprocessed the heart disease dataset
 - Encoded categorical variables using 'get_dummies'
-- Trained a **Random Forest model**
+- Trained a Random Forest model
 - Evaluated model using accuracy, precision, recall, F1-score
 - Saved:
-  - Trained model ('heart_disease_model.pkl')
-  - Scaler ('scaler.pkl')
-  - Model report ('model_report.txt')
-  - Confusion matrix heatmap ('confusion_matrix.png')
+  - Trained model             -                        'heart_disease_model.pkl'
+  - Scaler                    -                        'scaler.pkl'
+  - Model report              -                        'model_report.pkl'
+  - Confusion matrix heatmap  -                        'confusion_matrix.png'
 
 Example Output
 Accuracy: 75.543478% 
@@ -30,13 +29,12 @@ Tools and Libraries Used
 - Joblib
 
 What This Project Covers
-- Heart disease prediction using machine learning
-- Data preprocessing and feature encoding
-- Model training with Random Forest
-- Model evaluation (accuracy, precision, recall, F1-score)
-- Confusion matrix visualization
-- Saving model, scaler, and evaluation report
-- Clean and organized ML workflow
+- Data preprocessing & feature encoding
+- ML model training using Random Forest
+- Model evaluation metrics
+- Visualization with confusion matrix
+- Saving model, scaler & reports
+- End-to-end machine learning workflow
 
 How to Run
 Install required libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, joblib
@@ -49,7 +47,7 @@ Output Files
 
 - heart_disease_model.pkl        → Trained model
 - scaler.pkl                     → Scaler used for input normalization
-- model_report.txt               → Accuracy and classification report
+- model_report.pkl              → Accuracy and classification report
 - confusion_matrix.png           → Confusion matrix heatmap
 
 About Me
