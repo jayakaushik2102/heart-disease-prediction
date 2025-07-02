@@ -45,10 +45,10 @@ It will train the model, evaluate it, and save all outputs in the 'Outputs/' fol
 
 Output Files
 
-- heart_disease_model.pkl        → Trained model
-- scaler.pkl                     → Scaler used for input normalization
-- model_report.pkl              → Accuracy and classification report
-- confusion_matrix.png           → Confusion matrix heatmap
+- heart_disease_model.pkl                           → Trained model
+- scaler.pkl                                        → Scaler used for input normalization
+- model_report.pkl and model_report.txt             → Accuracy and classification report
+- confusion_matrix.png                              → Confusion matrix heatmap
 
 About Me
 I’m Jaya Kaushik, exploring machine learning and its applications in healthcare. 
