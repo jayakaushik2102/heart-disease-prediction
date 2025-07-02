@@ -14,7 +14,7 @@ from sklearn.metrics import classification_report, accuracy_score
 df = pd.read_csv(r"C:\Users\Jaya Kaushik\Desktop\Heart Disease Project\Data\heart.csv")
 
 # Basic checks
-print("Shape:, df.shape")
+print("Shape:", df.shape")
 print("Columns:", df.columns)
 print(df.head())
 
@@ -31,7 +31,7 @@ model = RandomForestClassifier(random_state=42)
 model.fit(x_train, y_train)
 
 # Predict and evaluate
-y_pred = model.predict(x_test)
+y_pred = model.predict(x_test_scaled)
 
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print("Classification Report:\n", classification_report(y_test, y_pred))
