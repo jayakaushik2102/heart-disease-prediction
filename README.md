@@ -47,7 +47,7 @@ Output Files
 
 - heart_disease_model.pkl                           → Trained model
 - scaler.pkl                                        → Scaler used for input normalization
-- model_report.pkl and model_report.txt             → Accuracy and classification report
+-  model_report.txt             → Accuracy and classification report
 - confusion_matrix.png                              → Confusion matrix heatmap
 
 About Me
